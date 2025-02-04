@@ -1,3 +1,5 @@
 com\mycompany\data_structures\Data_Structures.class
-linear_search\LinearSearch.class
+com\mycompany\data_structures\Stacks_Queues.class
 binary_search\BinarySearch.class
+linear_search\LinearSearch.class
+stack_dsa\Stacks.class

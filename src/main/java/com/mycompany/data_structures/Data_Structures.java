@@ -28,7 +28,7 @@ public class Data_Structures {
             int arr[] = new int[arrayLength];
 
             for (int i = 0; i <= arr.length - 1; i++) {
-                arr[i] = arr[i] + i * multiplier;
+                arr[i] = (i + 1) * multiplier;
                 System.out.print(arr[i] + " ");
             }
             System.out.println("\n");
