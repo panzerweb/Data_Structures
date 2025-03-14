@@ -21,6 +21,7 @@ public class LinearSearch {
         }
         return -1;
     }
+    
     //Default return statement: return -1
 }
 
