@@ -47,7 +47,7 @@ public class Stacks_refresh {
             node.pointer = top;
             top = node;
         }
-        public int remove(){
+        public int pop(){
             if(top == null){
                 throw new IllegalStateException("Stack is empty");
             }
