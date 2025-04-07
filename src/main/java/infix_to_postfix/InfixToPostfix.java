@@ -49,7 +49,7 @@ public class InfixToPostfix {
         } catch (Exception e) {
             System.out.println("Error: " + e);
         }
-        return postFix.toString();
+        return postFix.toString();  
     }
     
     public static int OperatorPrecedence(String operator){
