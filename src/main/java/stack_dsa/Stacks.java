@@ -4,7 +4,7 @@
  */
 package stack_dsa;
 
-import java.util.Stack;
+import java.util.Stack; //Import Stack utility
 
 /**
  *
@@ -24,10 +24,11 @@ public class Stacks {
         return "Elements Removed: " + removedElement;
     }
     
-      // Display stack elements
+    // Display stack elements
     public void displayStack() {
         System.out.println("Current Stack: " + elementStack);
     }
+    
     public boolean emptyStack(){
         return elementStack.empty();
     }
